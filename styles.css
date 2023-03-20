@@ -1,0 +1,25 @@
+body *{
+    display: flex;
+    font-size: 2.5rem;
+}
+section, aside, footer{
+    border: 1px solid black;
+}
+header, main{
+    margin: 1px 1px 8px;
+}
+header #navbar{
+    flex-grow: 4;
+}
+header #settings{
+    flex-grow: 1;
+}
+main > section{
+    height: 75vh;
+}
+main > section{
+    flex-grow: 4;
+}
+main > aside{
+    flex-grow: 1.2;
+}
